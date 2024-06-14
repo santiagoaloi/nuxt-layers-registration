@@ -1,13 +1,3 @@
 {
-  "outputDirectory": "/apps/skriptjobs-app/.output/public/",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@nuxtjs/vercel-builder",
-      "config": {
-        "serverFiles": ["**"],
-        "installCommand": "pnpm install --no-optional"
-      }
-    }
-  ]
+  "outputDirectory": "/apps/skriptjobs-app/.output/public/"
 }
