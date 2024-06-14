@@ -74,25 +74,6 @@ export default defineNuxtConfig({
     exclude: ['defaults'],
   },
 
-  // vuefire: {
-
-  //   // auth: {
-  //   //   enabled: true,
-  //   //   sessionCookie: false,
-  //   // },
-
-  //   config: {
-  //     apiKey: 'AIzaSyDUiGi3yhpK8MBvy7dmO9dCf0r1UeYWZT8',
-  //     authDomain: 'skriptjobs.firebaseapp.com',
-  //     databaseURL: 'https://skriptjobs-default-rtdb.europe-west1.firebasedatabase.app',
-  //     projectId: 'skriptjobs',
-  //     storageBucket: 'skriptjobs.appspot.com',
-  //     messagingSenderId: '415167758898',
-  //     appId: '1:415167758898:web:29707617c79f85694ff22b',
-  //     measurementId: 'G-QTV5LQ1RMZ',
-  //   },
-  // },
-
   imports: {
     injectAtEnd: true,
     dirs: ['stores', 'scripts/**/*.{ts,js}', 'data/**/*.{ts,js}'],
@@ -146,10 +127,6 @@ export default defineNuxtConfig({
 
     typedPages: true,
     // https://github.com/nuxt/nuxt/issues/24391
-
-    // This setting set to false will trigger errors on prod build
-    // when a page is pre-rendered.
-    // renderJsonPayloads: false,
   },
 
   devtools: { enabled: true },
