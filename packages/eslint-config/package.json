@@ -1,0 +1,11 @@
+{
+  "name": "@skriptjobs/eslint-config",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./eslint.config.js",
+  "dependencies": {
+    "@antfu/eslint-config": "^2.6.3",
+    "eslint": "^8.57.0",
+    "eslint-plugin-format": "^0.1.0"
+  }
+}

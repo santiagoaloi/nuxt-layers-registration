@@ -1,0 +1,16 @@
+{
+  "name": "skriptjobs-layers",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "A simple module to manage layers in skriptjobs",
+  "scripts": {
+    "dev": "nuxt dev ./apps/skriptjobs-app",
+    "build": "nuxt build ./apps/skriptjobs-app",
+    "generate": "nuxt generate ./apps/skriptjobs-app",
+    "postinstall": "nuxt prepare ./apps/skriptjobs-app",
+    "preview": "nuxt preview ./apps/skriptjobs-app"
+  },
+  "devDependencies": {
+    "@skriptjobs/eslint-config": "workspace:*"
+  }
+}

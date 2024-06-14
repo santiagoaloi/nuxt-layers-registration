@@ -1,0 +1,19 @@
+{
+  "name": "skriptjobs",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@skriptjobs/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "nuxt": "^3.12.1",
+    "typescript": "^4.9.3"
+  }
+}

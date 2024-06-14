@@ -1,0 +1,9 @@
+$defaultFont: 'Product Sans', sans-serif;
+
+@use 'vuetify' with (
+  // Fonts
+  $body-font-family: $defaultFont,
+  $heading-font-family: $defaultFont,
+)
+
+

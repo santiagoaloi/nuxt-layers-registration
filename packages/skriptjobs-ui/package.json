@@ -1,0 +1,30 @@
+{
+  "name": "@skriptjobs/ui",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@iconify-json/mdi": "^1.1.64",
+    "@nuxt/image": "npm:@nuxt/image-edge@latest",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@types/nprogress": "^0.2.3",
+    "@unocss/nuxt": "^0.58.5",
+    "@unocss/preset-icons": "^0.58.5",
+    "nprogress": "^0.2.0",
+    "sass": "^1.63.6",
+    "typescript": "^4.9.3",
+    "vuetify": "^3.5.5",
+    "vuetify-nuxt-module": "latest"
+
+  },
+  "devDependencies": {
+    "nuxt": "^3.6.2"
+  }
+}

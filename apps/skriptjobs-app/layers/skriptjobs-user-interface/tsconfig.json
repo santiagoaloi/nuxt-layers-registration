@@ -1,0 +1,5 @@
+{
+  // Extend the root app tsconfig, since it already mixes tsconfig from layers
+  // being extended, such as UI and public-web
+  "extends": "../../.nuxt/tsconfig.json"
+}
