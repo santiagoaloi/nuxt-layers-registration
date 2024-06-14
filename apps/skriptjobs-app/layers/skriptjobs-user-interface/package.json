@@ -1,5 +1,5 @@
 {
-  "name": "@skriptjobs/base",
+  "name": "@skriptjobs/user-interface",
   "type": "module",
   "private": true,
   "main": "./nuxt.config.ts",
