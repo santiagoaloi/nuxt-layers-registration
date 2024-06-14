@@ -10,8 +10,6 @@
 
 <p align="start">
 
- <img width="125" src="public/skriptjobs-logo-single.png" alt="skriptjobs logo">
-
 </p>
 
 # <span style="color: #ffff;"> Skriptjobs</span>
