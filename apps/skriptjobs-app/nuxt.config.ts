@@ -16,7 +16,7 @@ export default defineNuxtConfig({
    extends: ['@skriptjobs/base'],
   */
 
-  extends: ['@skriptjobs/base', 'layers/skriptjobs-public-web', 'layers/skriptjobs-user-interface'],
-  // extends: ['@skriptjobs/base'],
+  // auto-registering 'layers/skriptjobs-public-web', 'layers/skriptjobs-user-interface',
+  extends: ['@skriptjobs/base'],
 
 })

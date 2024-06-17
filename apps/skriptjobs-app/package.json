@@ -9,8 +9,8 @@
     "postinstall": "nuxt prepare",
     "preview": "nuxt preview"
   },
-  "devDependencies": {
-    "nuxt": "^3.12.1",
+  "dependencies": {
+    "nuxt": "^3.12.2",
     "typescript": "^4.9.3"
   }
 }
