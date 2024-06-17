@@ -10,13 +10,8 @@ export default defineNuxtConfig({
     pathPrefix: false,
   }],
 
-  /*
-   If I dont manually specify the other 2 layes, they are not auto-registered.
-   as they should be, in v3.12.1
-   extends: ['@skriptjobs/base'],
-  */
-
   // auto-registering 'layers/skriptjobs-public-web', 'layers/skriptjobs-user-interface',
+  // any layers in the 'layers' directory will be auto-registered.
   extends: ['@skriptjobs/base'],
 
 })
